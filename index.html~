@@ -72,7 +72,7 @@
       <footer class="footer">
         <p>&copy; Florian Jokeit</p>
         <form class="masterhead-brand" action="http://de.wikipedia.org/wiki/Spezial:Suche">
-        <a href="https://wave.webaim.org/report#/ibshuethm.cloudcontrolled.com/"><img src="img/wai-AAA.gif" alt="WAI-AAA Plakette"/></a>
+        <a href="https://wave.webaim.org/report#/ibshuethm.cloudcontrolled.com/index.html"><img src="img/wai-AAA.gif" alt="WAI-AAA Plakette"/></a>
         <label for="search">Suchtext</label>
         <input type="text" name="search" id="search" value="" style="color:black"/>
         <input type="submit" name="go" value="Artikel" style="color:black"/>
