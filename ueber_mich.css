@@ -1,5 +1,19 @@
 body {
   padding-top: 20px;
+  /*color: white;
+  background-image:url(img/background.jpg);*/
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */

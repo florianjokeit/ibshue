@@ -1,5 +1,33 @@
 body {
   padding-top: 20px;
+  /*color: white;
+  background-image:url(img/background.jpg);*/
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  font-size: 35;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 16;
+}
+
+.jumbotron h2 {
+  font-size: 25;
+  font-weight: bold;
 }
 
 /* Customize the nav-justified links to be fill the entire space of the .navbar */
