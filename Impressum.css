@@ -1,10 +1,8 @@
 body {
   padding-top: 20px;
-  /*color: white;
-  background-image:url(img/background.jpg);*/
 }
 
-body a {
+a {
   font-weight: bold;
 }
 
