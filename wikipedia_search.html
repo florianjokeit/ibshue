@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wikipedia Suche</title>
+
+    <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Custom styles -->
+    <link href="wikipedia_search.css" rel="stylesheet">
+  </head>
+
+  <body>
+  	<div class="container">
+      <!-- Navigation menu. -->
+      <div class="masthead">
+        <nav>
+          <ul class="nav nav-justified">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="ueber_mich.html">Ueber mich</a></li>
+            <li> <a href="http://www.thm.de">Meine Hochschule</a></li>
+            <li> <a href="https://www.codecademy.com/fjkt42">Codecademy</a></li>
+            <li> <a href="https://github.com/florianjokeit/ibshue">Github</a></li>
+            <li class="active"> <a href="wikipedia_search.html">Wikipedia Suche</a> </li>
+            <li> <a href="Impressum.html">Impressum</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Wikipedia Suche</h1>
+        <p class="lead">Hier bieten wir Ihnen eine einfache Artikelsuche für die deutsche Wikipedia an.</p>
+        <form class="masterhead-brand" action="http://de.wikipedia.org/wiki/Spezial:Suche">
+        <a href="https://wave.webaim.org/report#/ibshuethm.cloudcontrolled.com/index.html"><img src="img/wai-AAA.gif" alt="WAI-AAA Plakette"/></a>
+        <label for="search">Suchwort:</label>
+        <input type="text" name="search" id="search" value="" style="color:black" size="45" autofocus/>
+        <input type="submit" name="go" value="Artikel" style="color:black"/>
+        <input type="submit" name="fulltext" value="Volltext" style="color:black"/>
+        </form>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; Florian Jokeit, Student der <a href="http://www.thm.de">Technischen Hochschule Mittelhessen</a></p>
+      </footer>
+    </div> <!-- /container --> 
+  </body>
