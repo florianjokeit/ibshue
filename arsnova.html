@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Wikipedia Suche</title>
+    <title>Arsnova stats</title>
 
     <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
 
     <!-- Custom styles -->
-    <link href="wikipedia_search.css" rel="stylesheet">
+    <link href="arsnova.css" rel="stylesheet">
+    
+    <!-- Javascript -->  
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script type="text/javascript" src="http://canvasjs.com/assets/script/jquery.canvasjs.min.js"> </script>
+    <script type="text/javascript" src="javascript/arsnova.js"></script>
+  
   </head>
 
   <body>
@@ -25,28 +31,23 @@
             <li> <a href="http://www.thm.de">Meine Hochschule</a></li>
             <li> <a href="https://www.codecademy.com/fjkt42">Codecademy</a></li>
             <li> <a href="https://github.com/florianjokeit/ibshue">Github</a></li>
-            <li class="active"> <a href="wikipedia_search.html">Wikipedia Suche</a> </li>
-            <li> <a href="arsnova.html"> Arsnova </a> </li>            
+            <li> <a href="wikipedia_search.html">Wikipedia Suche</a> </li>
+            <li class="active"> <a href="arsnova.html"> Arsnova </a> </li>           
             <li> <a href="Impressum.html">Impressum</a></li>
           </ul>
         </nav>
       </div>
 
-      <!-- Jumbotron -->
+    <!-- Jumbotron -->
       <div class="jumbotron">
-        <h1>Wikipedia Suche</h1>
-        <p class="lead">Hier bieten wir Ihnen eine einfache Artikelsuche für die deutsche Wikipedia an.</p>
-        <form class="masterhead-brand" action="http://de.wikipedia.org/wiki/Spezial:Suche">
-        <a href="https://wave.webaim.org/report#/ibshuethm.cloudcontrolled.com/index.html"><img src="img/wai-AAA.gif" alt="WAI-AAA Plakette"/></a>
-        <label for="search">Suchwort:</label>
-        <input type="text" name="search" id="search" value="" style="color:black" size="45" autofocus/>
-        <input type="submit" name="go" value="Artikel" style="color:black"/>
-        <input type="submit" name="fulltext" value="Volltext" style="color:black"/>
-        </form>
+        <h1>Arsnova stats</h1>
+        <div class="panel-body">
+          <div id="chartContainer" style="height: 700px; width: 100%;"></div>
+          </div>
       </div>
-
+      <!-- Site footer -->
       <footer class="footer">
         <p>&copy; Florian Jokeit, Student der <a href="http://www.thm.de">Technischen Hochschule Mittelhessen</a></p>
       </footer>
-    </div> <!-- /container --> 
-  </body>
+    </div>
+</html>
